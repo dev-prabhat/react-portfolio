@@ -68,22 +68,22 @@ const Navbar = () => {
           <li>
             <a href='https://www.linkedin.com/in/prabhat-singh-93a54b1b6/' target="_blank" 
             className='p-2 cursor-pointer flex items-center justify-between bg-[#0072b1] ' rel="noreferrer">
-              <BsLinkedin size={30}/>
+              <BsLinkedin size={20}/>
             </a>
           </li>
           <li>
             <a href='https://github.com/dev-prabhat' target="_blank" className='p-2 cursor-pointer flex items-center justify-between bg-[#171515]' rel="noreferrer">
-              <BsGithub size={30}/>
+              <BsGithub size={20}/>
             </a>
           </li>
           <li>
             <a href='https://medium.com/@singhprabhatp.s.224' target="_blank" className='p-2 cursor-pointer flex items-center justify-between bg-[#66cdaa]' rel="noreferrer">
-              <BsMedium size={30}/>
+              <BsMedium size={20}/>
             </a>
           </li>
           <li>
             <a href='https://drive.google.com/file/d/1ih6XBANF4VLIUMVEBHBSSuMz9pP4t0ha/view?usp=sharing' target="_blank" className='p-2 cursor-pointer flex items-center justify-between bg-[#565f69]' rel="noreferrer">
-              <BsFillPersonLinesFill size={30}/>
+              <BsFillPersonLinesFill size={20}/>
             </a>
           </li>
         </ul>
