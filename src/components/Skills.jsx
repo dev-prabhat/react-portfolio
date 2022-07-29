@@ -4,7 +4,7 @@ import SkillData from "../data/SkillData"
 const Skills = () => {
     console.log(SkillData)
   return (
-    <section name="skills" className='w-full min-h-[110vh] bg-[#0a192f] text-[#ccd6f6]'>
+    <section name="skills" className='w-full min-h-screen bg-[#0a192f] text-[#ccd6f6]'>
       <div className='w-[90%] mx-auto flex flex-col justify-center h-screen px-6'>
           <p className='text-3xl md:text-5xl font-bold w-fit border-b-pink-600 pb-1 mb-2 border-b-4'>
             Skills

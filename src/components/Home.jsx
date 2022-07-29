@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <section name="home" className='w-full min-h-[110vh] bg-[#0a192f] text-[#ccd6f6]'>
+    <section name="home" className='w-full min-h-screen sm:min-h-[110vh] bg-[#0a192f] text-[#ccd6f6]'>
       <div className='w-[90%] mx-auto flex flex-col justify-center h-screen px-6'>
         <p className='text-pink-600'>Hi, my name is </p>
         <h1 className='text-3xl sm:text-5xl md:text-6xl font-bold'>Prabhat Singh</h1>
