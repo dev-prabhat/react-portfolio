@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { FaBars,FaTimes } from "react-icons/fa";
 import { BsLinkedin, BsGithub, BsMedium,BsFillPersonLinesFill } from "react-icons/bs";
+import {Link} from "react-scroll"
 
 const menu = ["Home","About","Skills","Projects"]
 
@@ -14,10 +15,9 @@ const Navbar = () => {
         <ul className='hidden sm:flex z-10'>
            {
             menu.map(option => (
-                <li className='mx-4 cursor-pointer' 
-                key={option}>
-                    {option}
-                </li>
+              <Link className='mx-4 cursor-pointer' key={option} activeClass="active" to={option} spy={true} smooth={true} offset={50} duration={500}>
+                {option}
+              </Link>
             ))
            }
         </ul>
@@ -27,10 +27,9 @@ const Navbar = () => {
           <ul className='fixed top-0 bottom-0 left-0 right-0 bg-[#0a192f] flex flex-col justify-center items-center'>
            {
             menu.map(option => (
-                <li className='m-6 cursor-pointer text-3xl' 
-                key={option}>
-                    {option}
-                </li>
+              <Link className='m-6 cursor-pointer text-3xl' key={option} to={option} smooth={true} offset={50} duration={500} onClick={()=>setIsVisible(prev => !prev)}>
+                {option}
+              </Link>
             ))
            }
           </ul> 
